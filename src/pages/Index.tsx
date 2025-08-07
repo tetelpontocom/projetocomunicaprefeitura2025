@@ -6,7 +6,7 @@ import { Footer } from "@/components/landing/Footer";
 import { Helmet } from "react-helmet-async";
 import { Button } from "@/components/ui/button";
 import { toast } from "@/hooks/use-toast";
-import logoTetel from "@/assets/logo-tetel-online.png";
+const logoTetel = "/lovable-uploads/44e29e0b-d417-4e8d-b41e-7ad8ddd6b7b7.png";
 
 const Index = () => {
   useEffect(() => {
