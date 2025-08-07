@@ -6,6 +6,7 @@ import { Footer } from "@/components/landing/Footer";
 import { Helmet } from "react-helmet-async";
 import { Button } from "@/components/ui/button";
 import { toast } from "@/hooks/use-toast";
+import logoTetel from "@/assets/logo-tetel-online.png";
 
 const Index = () => {
   useEffect(() => {
@@ -15,18 +16,36 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-background to-muted/30 text-foreground">
       <Helmet>
-        <title>Transformação Digital para Comunicação Pública</title>
-        <meta name="description" content="Estratégia moderna de comunicação pública com segmentação, IA e métricas, para falar com as pessoas certas no momento certo." />
+        <title>Tetel Digital: Estratégia & IA em Comunicação Pública</title>
+        <meta name="description" content="Tetel Digital: planejamento, segmentação, IA e métricas para comunicação pública eficaz e mensurável." />
         <link rel="canonical" href="/" />
-        <meta property="og:title" content="Transformação Digital para Comunicação Pública" />
-        <meta property="og:description" content="Presença digital forte e mensurável para gestões públicas." />
-        <script type="application/ld+json">{JSON.stringify({
-          '@context': 'https://schema.org',
-          '@type': 'WebSite',
-          name: 'Transformação Digital para Comunicação Pública',
-          url: '/',
-          description: 'Estratégia moderna de comunicação pública com segmentação, IA e métricas.'
-        })}</script>
+        <meta property="og:title" content="Tetel Digital: Estratégia & IA em Comunicação Pública" />
+        <meta property="og:description" content="Planejamento, segmentação, IA e métricas para comunicação pública eficaz." />
+        <meta property="og:site_name" content="Tetel Digital" />
+        <meta property="og:image" content={logoTetel} />
+        <script type="application/ld+json">{JSON.stringify([
+          {
+            '@context': 'https://schema.org',
+            '@type': 'WebSite',
+            name: 'Tetel Digital',
+            url: '/',
+            description: 'Planejamento, segmentação, IA e métricas para comunicação pública eficaz.'
+          },
+          {
+            '@context': 'https://schema.org',
+            '@type': 'Organization',
+            name: 'Tetel Digital',
+            url: '/',
+            email: 'contato@tetel.online',
+            telephone: '+55-82-99917-6900',
+            contactPoint: [{
+              '@type': 'ContactPoint',
+              contactType: 'customer support',
+              email: 'contato@tetel.online',
+              telephone: '+55-82-99917-6900'
+            }]
+          }
+        ])}</script>
       </Helmet>
 
       <TopNav />
@@ -137,6 +156,25 @@ const Index = () => {
             <li>Mês 2: Segmentação, calendário e painéis de dados;</li>
             <li>Mês 3: Otimizações, automações e expansão de canais.</li>
           </ol>
+        </Section>
+        <Section
+          id="conteudo-completo"
+          title="Apresentação Completa"
+          description="Conteúdo integral do material de referência com todos os textos e artes."
+        >
+          <div className="aspect-[16/9] w-full overflow-hidden rounded-lg border">
+            <iframe
+              src="https://hzozubih.manus.space/"
+              title="Apresentação completa – Tetel Digital"
+              loading="lazy"
+              className="w-full h-[70vh]"
+              referrerPolicy="no-referrer"
+            />
+          </div>
+          <p className="text-sm text-muted-foreground mt-3">
+            Se preferir, abra em nova aba:{" "}
+            <a href="https://hzozubih.manus.space/" className="story-link">hzozubih.manus.space</a>
+          </p>
         </Section>
       </main>
 

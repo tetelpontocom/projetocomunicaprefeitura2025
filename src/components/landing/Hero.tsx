@@ -28,7 +28,7 @@ export const Hero = () => {
             </p>
             <div className="flex flex-wrap gap-3">
               <a href="#estrategia"><Button variant="hero" size="lg">Ver Estratégia</Button></a>
-              <a href="#contato"><Button variant="outline" size="lg">Fale conosco</Button></a>
+              <a href="#contato"><Button variant="outline" size="lg">Contato: (82) 99917-6900</Button></a>
             </div>
           </div>
           <div className="flex-1 w-full">

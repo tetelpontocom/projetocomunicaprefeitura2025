@@ -54,9 +54,9 @@ All colors MUST be HSL.
 
     --sidebar-ring: 217.2 91.2% 59.8%;
 
-    /* Brand tokens */
-    --brand: 217 92% 54%; /* rich blue */
-    --brand-2: 188 72% 42%; /* teal */
+    /* Brand tokens - Tetel Digital */
+    --brand: 210 90% 55%; /* Tetel blue */
+    --brand-2: 356 85% 57%; /* Tetel red */
     --brand-foreground: 210 40% 98%;
 
     /* Motion & shadows */
