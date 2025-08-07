@@ -18,6 +18,11 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        // Premium variants using design tokens
+        hero:
+          "bg-gradient-to-r from-brand to-brand2 text-primary-foreground shadow-[var(--shadow-elev)] hover:opacity-95",
+        pill:
+          "rounded-full bg-brand/10 text-foreground border border-brand/20 hover:bg-brand/15",
       },
       size: {
         default: "h-10 px-4 py-2",

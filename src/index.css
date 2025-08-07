@@ -53,6 +53,16 @@ All colors MUST be HSL.
     --sidebar-border: 220 13% 91%;
 
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Brand tokens */
+    --brand: 217 92% 54%; /* rich blue */
+    --brand-2: 188 72% 42%; /* teal */
+    --brand-foreground: 210 40% 98%;
+
+    /* Motion & shadows */
+    --shadow-elev: 0 12px 32px -12px hsl(var(--brand) / 0.28);
+    --shadow-glow: 0 0 42px hsl(var(--brand) / 0.35);
+    --transition-ease: cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .dark {
@@ -93,6 +103,16 @@ All colors MUST be HSL.
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 }
+
+@layer utilities {
+  .spotlight {
+    background-image: radial-gradient(600px circle at var(--spot-x,50%) var(--spot-y,50%), hsl(var(--brand) / 0.15), transparent 40%);
+  }
+  .glass-card {
+    @apply bg-card/70 backdrop-blur-md border border-border shadow-[var(--shadow-elev)] rounded-lg;
+  }
+}
+
 
 @layer base {
   * {
