@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { TopNav } from "@/components/landing/TopNav";
 import { Hero } from "@/components/landing/Hero";
 import { Section } from "@/components/landing/Section";
+import { ApresentacaoCompleta } from "@/components/landing/ApresentacaoCompleta";
 import { Footer } from "@/components/landing/Footer";
 import { Helmet } from "react-helmet-async";
 import { Button } from "@/components/ui/button";
@@ -156,6 +157,10 @@ const Index = () => {
             <li>Mês 2: Segmentação, calendário e painéis de dados;</li>
             <li>Mês 3: Otimizações, automações e expansão de canais.</li>
           </ol>
+        </Section>
+
+        <Section id="conteudo-completo" title="Apresentação Completa" description="Conteúdo integral do material, agora nativo com marca Tetel Digital.">
+          <ApresentacaoCompleta />
         </Section>
       </main>
 
