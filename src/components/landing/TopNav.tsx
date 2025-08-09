@@ -10,7 +10,7 @@ const sections = [
   { id: "conteudo", label: "Conteúdo" },
   { id: "equipe", label: "Equipe" },
   { id: "cronograma", label: "Cronograma" },
-  { id: "conteudo-completo", label: "Apresentação" },
+  
 ];
 
 export const TopNav = () => {

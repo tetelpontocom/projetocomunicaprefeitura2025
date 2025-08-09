@@ -157,25 +157,6 @@ const Index = () => {
             <li>Mês 3: Otimizações, automações e expansão de canais.</li>
           </ol>
         </Section>
-        <Section
-          id="conteudo-completo"
-          title="Apresentação Completa"
-          description="Conteúdo integral do material de referência com todos os textos e artes."
-        >
-          <div className="aspect-[16/9] w-full overflow-hidden rounded-lg border">
-            <iframe
-              src="https://hzozubih.manus.space/"
-              title="Apresentação completa – Tetel Digital"
-              loading="lazy"
-              className="w-full h-[70vh]"
-              referrerPolicy="no-referrer"
-            />
-          </div>
-          <p className="text-sm text-muted-foreground mt-3">
-            Se preferir, abra em nova aba:{" "}
-            <a href="https://hzozubih.manus.space/" className="story-link">hzozubih.manus.space</a>
-          </p>
-        </Section>
       </main>
 
       <Footer />
