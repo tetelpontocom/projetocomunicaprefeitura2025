@@ -42,7 +42,7 @@ export const TopNav = () => {
     <header className="sticky top-0 z-40 border-b bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <nav className="container flex items-center justify-between h-16">
         <a href="#" className="flex items-center gap-2 font-semibold tracking-tight">
-          <img src="/lovable-uploads/44e29e0b-d417-4e8d-b41e-7ad8ddd6b7b7.png" alt="Logotipo Tetel Digital - Estratégia & IA" className="h-8 w-auto" loading="lazy" />
+          <img src="/lovable-uploads/4c91f6a7-a1cb-428a-92ac-12992175e88f.png" alt="Tetel Digital - Estratégia & IA logotipo" className="h-8 w-auto" loading="lazy" />
           <span className="hidden sm:inline whitespace-nowrap">Tetel Digital</span>
         </a>
 
